@@ -1,3 +1,3 @@
 # Rock-Paper-Scissors Game
 
-Rock-paper-scissors game on JavaScript.
+Rock-paper-scissors game in JavaScript.

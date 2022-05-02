@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock paper scissors</title>
+    <link rel="icon" href="./img/icons8-hand-rock-48.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Rock-paper-scissors game!</h1>
-    <script src="./script.js"></script>
+    <header class="header">
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="container">
+
+        <h2 class="choice__text">Choose!</h2>
+
+        <h3 class="rules">The game will end when one player obtains 5 points</h3>
+
+        <div class="choices">
+            <input id="rock" name="rock" type="button">
+            <input id="paper" name="paper" type="button">
+            <input id="scissors" name="scissors" type="button">
+        </div>
+
+        <div class="table">
+            <div class="score">Score</div>
+            <div class="count">
+                <div id="user">User <span>0</span></div>
+                <div id="computer">Computer <span>0</span></div>
+            </div>
+        </div>
+        <div id="popup" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close close-popup">X</a>
+                    <div class="popup__title"></div>
+                    <button class="reset"></button>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </div>
 </body>
 </html>
